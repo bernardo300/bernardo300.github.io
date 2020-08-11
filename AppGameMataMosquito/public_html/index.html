@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Perde</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+        <link rel="stylesheet" href="css/estilo.css" type="text/css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        <img src="img/game.png">
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        <select id="nivel">
+                            <option value="">--Escolha o nivel--</option>
+                            <option value="e">--Facil</option>
+                            <option value="m">--Medio</option>
+                            <option value="h">--Dificil</option>
+                            
+                        </select>
+                    </div>  
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col">
+                    <div class="d-flex justify-content-center">
+                        <button type="button" class="btn btn-dark btn-lg" onclick="nivel();">Iniciar Jogo</button>
+                    </div>  
+                </div>
+            </div>
+        </div>
+        <script>
+        function nivel(){
+            var nivel = document.getElementById('nivel').value;
+            if (nivel==='') {
+                alert('Escolha um nivel');
+                return false;
+            }else{
+                window.location.href = "jogo.html?" + nivel;
+            }
+        }
+        </script>
+    </body>
+</html>
