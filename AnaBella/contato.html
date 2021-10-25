@@ -1,50 +1,47 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Anna Bella - Contato</title>
-		<meta charset="utf-8">
+  <head>
+    <title>Anna Bella - Contato</title>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-		<link rel="stylesheet" type="text/css" href="css/estilo.css">
-		
-	</head>
+    <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+  </head>
 
-	<body>
+  <body>
+    <div id="container">
+      <header>
+        <img src="imagens/capa.png" class="img-capa" />
 
-		<div id="principal">
-			
-			<img src="imagens/capa.png">
+        <div id="menu">
+          <a href="index.html">HOME</a> |
+          <a href="biografia.html">BIOGRAFIA</a> |
+          <a href="campanhas-publicitarias.html">CAMPANHAS PUBLICITÁRIAS</a> |
+          <a href="contato.html" style="color: #f4f4f4">CONTATO</a>
+        </div>
+      </header>
 
-			<div id="menu">
-				
-				<a href="index.html">HOME</a> | 
-				<a href="biografia.html">BIOGRAFIA</a> | 
-				<a href="campanhas-publicitarias.html">CAMPANHAS PUBLICITÁRIAS</a> | 
-				<a href="contato.html">CONTATO</a> 
+      <section>
+        <!-- inicio conteudo -->
+        <article>
+          <h1>Entrar em contato</h2>
+          <form>
+            Seu email:<br />
+            <input type="email" name="email" /><br />
+            Assunto:<br />
+            <input type="text" name="assunto" /><br />
+            Descricao:<br />
+            <textarea name="descricao" cols="17"></textarea><br />
+            <input type="submit" value="Enviar" />
+          </form>
+        </article>
+      </section>
+      <!-- fim conteudo -->
 
-			</div>
-
-			<div id="conteudo"><!-- inicio conteudo -->
-				
-				<h1>Contato</h1>
-				<p>
-					Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquam lacus non pretium pharetra. Maecenas aliquam nulla rutrum fringilla sodales. Duis condimentum sollicitudin augue, sit amet ornare eros pretium sit amet. Fusce lacinia aliquet est at dictum. Morbi pharetra, arcu eu convallis congue, odio dolor consequat arcu, vitae ornare nisl lacus non libero.
-				</p>
-
-				<img src="imagens/foto1.png" class="img-campanha">
-
-				<div>
-					<strong>e-mail:</strong> contato@annabella.com.br <br>
-					<strong>telefone:</strong>  (11) 9978-6589 
-				</div>
-
-			</div><!-- fim conteudo -->
-
-			<div id="rodape">
-				<h4>Todos os direitos reservados</h4>
-			</div>
-
-		</div>
-
-	</body>
-
+      <footer>
+        <h4>Todos os direitos reservados</h4>
+      </footer>
+    </div>
+  </body>
 </html>
