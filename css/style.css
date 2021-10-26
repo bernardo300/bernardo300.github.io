@@ -7,7 +7,7 @@ img {
 }
 
 body {
-  background-color: #fdfdfd;
+  background-color: #f7f5ff;
   color: #353535;
   font-family: 'Fira Sans', sans-serif;
 }
@@ -23,7 +23,7 @@ main {
 }
 
 aside {
-  background: #e9ebec;
+  background: #d3e7e6;
   padding: 50px 0 16px;
   width: 280px;
 }
@@ -38,7 +38,7 @@ aside {
 }
 
 .profile-picture {
-  border-radius: 20px;
+  border-radius: 100%;
   border: solid 4px #284b63;
   width: 180px;
 }
@@ -79,6 +79,12 @@ aside {
 
 .social-links a:hover {
   color: #8fa0ac;
+}
+.my-menu a:hover {
+  color: #8fa0ac;
+}
+hr {
+  border: 1px solid #8fa0ac;
 }
 
 .personal-data {
@@ -294,6 +300,10 @@ article:not(:last-of-type) {
   color: #3c6e71;
   font-weight: 800;
   text-align: center;
+}
+footer {
+  height: 80px;
+  background-color: #f3f2ed;
 }
 
 @media (max-width: 1024px) {
