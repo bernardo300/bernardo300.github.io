@@ -1,6 +1,6 @@
 # Bernardo Lopes - Desenvolvedor full-stack
 
-[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/theleoad.svg?style=social&label=%20%40theleoad)](https://twitter.com/theleoad)
+[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/bernardoio.svg?style=social&label=%20%40bernardoio)](https://twitter.com/bernardoio)
 
 ---
 # Sobre mim
